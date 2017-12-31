@@ -2,9 +2,9 @@
 
 > Author: ~~Leslie Lee([LeeChunHei](https://github.com/LeeChunHei))~~ 
 
-Mixed advance software, libbase and libsc assignment for smart car 2018.
+Mixed advance software, libbase and libsc assignment for Smart Car 2018.
 
-Please thanks Leslie for this assignment. All are designed by Leslie
+Please thank Leslie for this assignment. All are designed by Leslie.
 
 ### Introduction
 
@@ -14,35 +14,34 @@ Detailed description: https://docs.google.com/document/d/1o12wKFjEMJ87Q3X8X253FE
 
 ### Skeleton Code
 
-As boy god Leslie knows you are not as god as him, he will provide some skeleton code, you can feel free to use/modify or even choose not using it. You can also add or delete files freely, as long as it can give out correct output. They are not necessary to be completed that you need to further modify it.
+As boy god Leslie knows you are not as god as him, he will provide some skeleton code, you can feel free to use/modify or even choose not using it. You can also add or delete files freely, as long as it can give the correct output. The headers are not necessarily complete, you may need to further modify them for your convenience.
 
 Provided skeletons:
 
-- `config.h`: stores all components' config
-- `comm.h`: class prototype of communication protocol abstract class `Comm`
-- `bluetooth.h` : prototype of `Bluetooth` class inherited from `Comm`, implement the pure virtual function, which `SendBuffer` should become `JyMcuBt106`'s and `EnableTimer` should be enabling `Pit`
+- `config.h`: stores all components' configs.
+- `comm.h`: class prototype of communication protocol abstract class `Comm`.
+- `bluetooth.h` : prototype of `Bluetooth` class inherited from `Comm`, implement the pure virtual function, which `SendBuffer` should become `JyMcuBt106`'s and `EnableTimer` should be enabling `Pit`.
+- `sprite.h`: prototype of the `Sprite` abstract class for managing on-screen elements. This class hints the way you might want to follow for rendering the elements.
+- `ball.h`: prototype of the `Ball` class.
+- `platform.h`: prototype of the `Platform` class.
 - `main.cpp`: the program which seniors use for testing protocol. Pay attention to the lambda function syntax, you may want to use it 😈. 
 
 ### Submission
 
-To submit, set up a private github repo, invite all spectators as collaborator. You need to finish protocol before 5 JAN 2018, and mark it as milestone 1 in github; finish the whole game before 10 JAN 2018, and mark it as milestone 2. There will be a tournament later, date time venue TBA
+To submit, set up a private Github repo and invite all spectators as collaborators. You need to finish your protocol before 5 Jan 2018, and mark it as Milestone 1 on Github; finish the whole game before 10 Jan 2018, and mark it as Milestone 2. There will be a tournament later, date, time, venue TBA.
 
 All spectators:
 
-LeeChunHei
+-   LeeChunHei
+-   mcreng
+-   danvim
+-   Mkwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+-   dipsywong98
 
-mcreng
+### Getting Started
 
-danvim
-
-Mkwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-
-dipsywong98
-
-### Get Started
-
-1. Set up eclipse project
-2. run following command in project directory
+1. Set up an eclipse project for development on the board.
+2. Run the following command in your project directory.
 
 ```shell
 git init
