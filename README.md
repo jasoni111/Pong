@@ -2,6 +2,8 @@
 
 > Author: ~~Leslie Lee([LeeChunHei](https://github.com/LeeChunHei))~~ 
 
+<b>🎈🎊🎉<i>Happy New Year!!! Your warm and friendly seniors have brought you all a present, this lovely little puzzle for you to solve with your friends!</i>🎉🎊🎈</b>
+
 Mixed advance software, libbase and libsc assignment for Smart Car 2018.
 
 Please thank Leslie for this assignment. All are designed by Leslie.
