@@ -49,7 +49,7 @@ All spectators:
 git init
 git remote add origin https://github.com/hkust-smartcar/assignment-pong
 git pull origin master
-git rm origin
+git remote rm origin
 git remote add origin https://github.com/<your user id>/<repo-name>
 git add *
 git commit -a -m "initial commit"
